@@ -1,6 +1,10 @@
 function Main() {
     return ( 
-        <div>Main이다!!!</div>
+        <div>
+            <div>Main이다!!!</div>    
+            <p>push Test!!!</p>
+        </div>
+        
      );
 }
 
