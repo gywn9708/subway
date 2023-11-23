@@ -1,9 +1,9 @@
+
 function Main() {
   return (
-    <div>
-      <div>Main이다!!!</div>
-      <p>push Test!!!!!</p>
-    </div>
+    <>
+      MAIN
+    </>
   );
 }
 
