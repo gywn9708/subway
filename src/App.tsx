@@ -1,15 +1,13 @@
 import React from "react";
 import "./App.css";
-import DetailHeader from "./components/DetailHeader";
-import SideNavBar from "./components/SideNavBar";
-// import Header from "./components/Header";
+import Header from "./components/Header";
+import Menu from "./components/menu/Menu";
 
 function App() {
   return (
     <div className="App">
-      {/* <Header /> */}
-      <DetailHeader />
-      <SideNavBar />
+      <Header />
+      <Menu />
     </div>
   );
 }
