@@ -8,7 +8,6 @@ const Title = styled.div`
   color: #ffffff;
   font-size: 35px;
   font-weight: bold;
-  margin-bottom: 6px;
   padding: 24px;
   background-color: #51964c;
 `;

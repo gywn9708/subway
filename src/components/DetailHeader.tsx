@@ -19,17 +19,20 @@ const Header = styled.div`
   display: flex;
   font-size: 35px;
   font-weight: bold;
-  margin-bottom: 6px;
   padding: 24px;
   background-color: #51964c;
+  width: 100%;
   justify-content: center;
 `;
-const PrevButton = styled.div`
+const PrevButton = styled.button`
+  background-color: #51964c;
   border: none;
+  color: #ffffff;
   cursor: pointer;
   justify-content: left;
 `;
 const Title = styled.div`
+  display: flex;
   justify-content: center;
 `;
 export default DetailHeader;
