@@ -28,11 +28,13 @@ const Container = styled.div`
 `;
 
 const Nav = styled.div`
-  height: 96px;
-  padding: 22px 34px;
+  padding: 34px 52px;
   display: flex;
   align-items: center;
   justify-content: center;
+  &:last-child {
+    padding-bottom: 66px;
+  }
 `;
 
 export default SideNavBar;

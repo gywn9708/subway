@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Container from "./components/Container";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Menu from "./components/menu/Menu";
 import SideNavBar from "./components/SideNavBar";
@@ -14,6 +15,8 @@ function App() {
         <SideNavBar />
         <Menu />
       </Container>
+
+      <Footer />
     </div>
   );
 }

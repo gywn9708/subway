@@ -6,6 +6,7 @@ function Header() {
 
 const Title = styled.div`
   color: #ffffff;
+  height: 48px;
   font-size: 35px;
   font-weight: bold;
   padding: 24px;
