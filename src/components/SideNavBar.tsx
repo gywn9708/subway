@@ -9,10 +9,32 @@ function SideNavBar() {
     "SAUCES",
     "SEASONINGS",
   ];
+  const handleClickNavList = (item: string) => {
+    switch (item) {
+      case "BREADS":
+        console.log(item);
+        break;
+      case "CHEESE":
+        console.log(item);
+        break;
+      case "EXTRAS":
+        console.log(item);
+        break;
+      case "VEGGIES":
+        console.log(item);
+        break;
+      case "SAUCES":
+        console.log(item);
+        break;
+      case "SEASONINGS":
+        console.log(item);
+        break;
+    }
+  };
   return (
     <Container>
-      {navArray.map((a) => (
-        <Nav>{a}</Nav>
+      {navArray.map((item) => (
+        <Nav onClick={() => handleClickNavList(item)}>{item}</Nav>
       ))}
     </Container>
   );
@@ -31,6 +53,7 @@ const Nav = styled.div`
   padding: 34px 52px;
   display: flex;
   align-items: center;
+  cursor: pointer;
   justify-content: center;
   &:last-child {
     padding-bottom: 66px;

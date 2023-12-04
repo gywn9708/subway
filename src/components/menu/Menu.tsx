@@ -1,17 +1,25 @@
 import styled from 'styled-components';
 import axios from 'axios'
+import { useEffect } from 'react';
 
 function Menu() {
     const getMenus = () => {
         axios
-        .get('http://localhost:8000/')
+        .get('http://localhost:8000/menu')
         .then((response) => {
             console.log(response.data);
         });
     };
 
+    useEffect(() => {
+        getMenus();
+    }, []);
+
     return ( 
         <MenuContainer>
+            <MenuItem />
+            <MenuItem />
+            <MenuItem />
             <MenuItem />
             <MenuItem />
             <MenuItem />
@@ -25,7 +33,6 @@ function Menu() {
 export default Menu;
 
 const MenuContainer = styled.div`
-    width: fit-content;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 23px;

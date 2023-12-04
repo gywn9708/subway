@@ -2,79 +2,98 @@
   "menu": [
     {
       "id": 1,
-      "title": "화이트",
+      "title_ko": "화이트",
+      "title_en": "White",
       "category": "breads",
+      "kcal": 202,
       "price": 0,
       "desc": "",
       "img": ""
     },
     {
       "id": 2,
-      "title": "파마산 오레가노",
+      "title_ko": "파마산 오레가노",
+      "title_en": "Parmesan Oregano",
       "category": "breads",
+      "kcal": 213,
       "price": 0,
       "desc": "",
       "img": "https://www.coloradotimesnews.com/wp-content/uploads/2021/03/닭도리탕-W.jpg"
     },
     {
       "id": 3,
-      "title": "위트",
+      "title_ko": "위트",
+      "title_en": "Wheat",
       "category": "breads",
+      "kcal": 192,
       "price": 0,
       "desc": "",
       "img": "https://mblogthumb-phinf.pstatic.net/MjAyMzA0MjlfNzEg/MDAxNjgyNzc0Njk2NjI3.kPFZE2Bz6RK2e06sAlC328Zv1KpTxGlDZlQj4WYPEPMg.MgNsGY3qAcS69sHCPAEWQws154fYMdszbEZQKYygdwog.JPEG.lalacucina/오뎅탕끓이는법.jpg?type=w800"
     },
     {
       "id": 4,
-      "title": "허니오트",
+      "title_ko": "허니오트",
+      "title_en": "Honey Oat",
       "category": "breads",
+      "kcal": 235,
       "price": 0,
       "desc": "",
       "img": "https://sitem.ssgcdn.com/43/08/39/item/1000326390843_i1_750.jpg"
     },
     {
       "id": 5,
-      "title": "하티",
+      "title_ko": "하티",
+      "title_en": "Hearty Italian",
       "category": "breads",
+      "kcal": 210,
       "price": 0,
       "desc": "",
       "img": "https://shop-phinf.pstatic.net/20181206_3/101361123_1544084502347QbMNt_PNG/����1.png"
     },
     {
       "id": 6,
-      "title": "플랫브래드",
+      "title_ko": "플랫브래드",
+      "title_en": "Flat Bread",
       "category": "breads",
+      "kcal": 467,
       "price": 0,
       "desc": "",
       "img": "https://contents.lotteon.com/itemimage/20231020142356/LM/88/09/49/13/56/65/6_/00/1/LM8809491356656_001_1.jpg"
     },
     {
       "id": 7,
-      "title": "아메리칸치즈",
+      "title_ko": "아메리칸치즈",
+      "title_en": "American Cheese",
       "category": "cheese",
+      "kcal": 35.3,
       "price": 0,
       "desc": "",
       "img": "https://i.ytimg.com/vi/EbUj98tcV10/maxresdefault.jpg"
     },
     {
       "id": 8,
-      "title": "슈레드치즈",
+      "title_ko": "슈레드치즈",
+      "title_en": "Shredded Cheese",
       "category": "cheese",
+      "kcal": 53.6,
       "price": 0,
       "desc": "",
       "img": "https://recipe1.ezmember.co.kr/cache/recipe/2020/03/14/bb3d82eae5bb892feb9ab5ca3f454fdf1.jpg"
     },
     {
       "id": 9,
-      "title": "모차렐라치즈",
+      "title_ko": "모차렐라치즈",
+      "title_en": "Mozzarella Cheese",
       "category": "cheese",
+      "kcal": 43.8,
       "price": 0,
       "desc": "",
       "img": "https://asset.m-gs.kr/prod/1034381685/1/550"
     },
     {
       "id": 10,
-      "title": "치즈 제외",
+      "title_ko": "치즈 제외",
+      "title_en": "Except for cheese",
       "category": "cheese",
       "price": 0,
       "desc": "",
@@ -82,7 +101,8 @@
     },
     {
       "id": 11,
-      "title": "미트추가",
+      "title_ko": "미트추가",
+      "title_en": "Meat",
       "category": "ingredient",
       "price": 3000,
       "desc": "",
@@ -90,7 +110,8 @@
     },
     {
       "id": 12,
-      "title": "에그마요 추가",
+      "title_ko": "에그마요 추가",
+      "title_en": "Egg Mayo",
       "category": "ingredient",
       "price": 2000,
       "desc": "",
@@ -98,7 +119,8 @@
     },
     {
       "id": 13,
-      "title": "페퍼로니 추가",
+      "title_ko": "페퍼로니 추가",
+      "title_en": "Pepperoni",
       "category": "ingredient",
       "price": 1400,
       "desc": "",
@@ -106,7 +128,8 @@
     },
     {
       "id": 14,
-      "title": "베이컨 추가",
+      "title_ko": "베이컨 추가",
+      "title_en": "Bacon",
       "category": "ingredient",
       "price": 1500,
       "desc": "",
@@ -114,7 +137,8 @@
     },
     {
       "id": 15,
-      "title": "아보카도 추가",
+      "title_ko": "아보카도 추가",
+      "title_en": "Avocado",
       "category": "ingredient",
       "price": 1500,
       "desc": "",
@@ -122,7 +146,8 @@
     },
     {
       "id": 16,
-      "title": "오믈렛 추가",
+      "title_ko": "오믈렛 추가",
+      "title_en": "Omelet",
       "category": "ingredient",
       "price": 1800,
       "desc": "",
@@ -130,7 +155,8 @@
     },
     {
       "id": 17,
-      "title": "치즈추가",
+      "title_ko": "치즈추가",
+      "title_en": "Cheese",
       "category": "ingredient",
       "price": 1400,
       "desc": "",
@@ -154,64 +180,80 @@
     },
     {
       "id": 20,
-      "title": "양상추 제외",
+      "title_ko": "양상추",
+      "title_en": "Lettuce",
       "category": "vegetable",
+      "kcal": 2.9,
       "price": 0,
       "desc": "",
       "img": "https://blog.kakaocdn.net/dn/ci701s/btsog0oO1DG/LKw8HzmJJFRCefSM5Dzbi0/img.png"
     },
     {
       "id": 21,
-      "title": "토마토 제외",
+      "title_ko": "토마토",
+      "title_en": "Tomatoes",
       "category": "vegetable",
+      "kcal": 7.7,
       "price": 0,
       "desc": "",
       "img": "https://image.newdaily.co.kr/site/data/img/2023/05/10/2023051000041_0.jpg"
     },
     {
       "id": 22,
-      "title": "오이 제외",
+      "title_ko": "오이",
+      "title_en": "Cucumbers",
       "category": "vegetable",
+      "kcal": 1.5,
       "price": 0,
       "desc": "",
       "img": "https://thenaum.cdn-nhncommerce.com/data/goods/23/01/04/1000011157/1000011157_main_070.jpg"
     },
     {
       "id": 23,
-      "title": "피망 제외",
+      "title_ko": "피망",
+      "title_en": "Peppers",
       "category": "vegetable",
+      "kcal": 1.4,
       "price": 0,
       "desc": "",
       "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjAyMDVfMjgy%2FMDAxNjQ0MDUwNzc4MjY2.YrO4MQJJ5hIpPc-qGsfCGwwNSU9Tzp49dMtjbrN6h0wg.eDfekTZmWMuedHP7NDiZZHOguxWWho9j1bat6VyftZUg.JPEG.smg9289%2Foutput_1093826968.jpg&type=sc960_832"
     },
     {
       "id": 24,
-      "title": "양파 제외",
+      "title_ko": "양파",
+      "title_en": "Red Onions",
       "category": "vegetable",
+      "kcal": 2.8,
       "price": 0,
       "desc": "",
       "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTEwMTJfMTE2%2FMDAxNjMzOTk5MzMwMDQy.9lqHpS4QOkhPlLpzDRbGULR8qNHw0Pz5XoyYNoNfyIkg.W68NlRu80R3lYWExWN0xHzxxD9Ruuv7IuUvtNBpWoCgg.JPEG.cham0827%2Foutput_1580713932.jpg&type=sc960_832"
     },
     {
       "id": 25,
-      "title": "피클 제외",
+      "title_ko": "피클",
+      "title_en": "Pickles",
       "category": "vegetable",
+      "kcal": 0.4,
       "price": 0,
       "desc": "",
       "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA5MTJfMjM0%2FMDAxNjk0NDk5Nzg2ODAy.Ph5BWY1hYOPz0elh15WQon_dS2jMoMe4cvO_zhMVweUg._qt2qUFWM8lo5NtlgEvAxTYEn6E1Y19hytvk3otpa2kg.JPEG.yoaram%2Foutput_4182234782.jpg&type=sc960_832"
     },
     {
       "id": 26,
-      "title": "올리브 제외",
+      "title_ko": "올리브",
+      "title_en": "Olives",
       "category": "vegetable",
+      "kcal": 3.9,
       "price": 0,
       "desc": "",
       "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxODExMTZfMTAz%2FMDAxNTQyMzE1ODQ2MTM3.DfiKjZEIBqewRci0Wi5sTeWSdF-gdNmB5q1WgX1F7Vsg.7KpcwWgiw6I0f0V50g-RbCBGq5ag8TdVgL9-JEocepwg.JPEG.zium-design%2F20.jpg&type=sc960_832"
     },
     {
       "id": 27,
-      "title": "할라피뇨 제외",
+      "title_ko": "할라피뇨",
+      "title_en": "Jalapenos",
       "category": "vegetable",
+      "kcal": 0.6,
       "price": 0,
       "desc": "",
       "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA4MjNfMTE3%2FMDAxNjkyNzYwODcxMjgw.l5BpB8JNUfuecH4gl2DSWmbdcBZoCz7KM-pH4Vmx7wEg.GNjtnqNUcO9Y_KEoeZzIkHszTrbgpPYAY5rJhRc7-h4g.PNG.01046058675%2F1.png&type=sc960_832"
@@ -234,103 +276,128 @@
     },
     {
       "id": 30,
-      "title": "랜치",
+      "title_ko": "랜치",
+      "title_en": "Ranch",
       "category": "sauce",
+      "kcal": 116,
       "price": 0,
       "desc": "",
       "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20140424_105%2Fwkrldid81_1398308896046wARPO_JPEG%2FDSCN1533.jpg&type=sc960_832"
     },
     {
       "id": 31,
-      "title": "스위트 어니언",
+      "title_ko": "스위트 어니언",
+      "title_en": "Sweet Onion",
       "category": "sauce",
+      "kcal": 40.1,
       "price": 0,
       "desc": "",
       "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20140424_105%2Fwkrldid81_1398308896046wARPO_JPEG%2FDSCN1533.jpg&type=sc960_832"
     },
     {
       "id": 32,
-      "title": "마요네즈",
+      "title_ko": "마요네즈",
+      "title_en": "Mayonnaise",
       "category": "sauce",
+      "kcal": 158,
       "price": 0,
       "desc": "",
       "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20140424_105%2Fwkrldid81_1398308896046wARPO_JPEG%2FDSCN1533.jpg&type=sc960_832"
     },
     {
       "id": 33,
-      "title": "스위트 칠리",
+      "title_ko": "스위트 칠리",
+      "title_en": "Sweet Chilli",
       "category": "sauce",
+      "kcal": 40,
       "price": 0,
       "desc": "",
       "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20140424_105%2Fwkrldid81_1398308896046wARPO_JPEG%2FDSCN1533.jpg&type=sc960_832"
     },
     {
       "id": 34,
-      "title": "스모크 바베큐",
+      "title_ko": "스모크 바베큐",
+      "title_en": "Smoke BBQ",
       "category": "sauce",
+      "kcal": 32.8,
       "price": 0,
       "desc": "",
       "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20140424_105%2Fwkrldid81_1398308896046wARPO_JPEG%2FDSCN1533.jpg&type=sc960_832"
     },
     {
       "id": 35,
-      "title": "핫 칠리",
+      "title_ko": "핫 칠리",
+      "title_en": "Hot Chilli",
       "category": "sauce",
+      "kcal": 41.8,
       "price": 0,
       "desc": "",
       "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20140424_105%2Fwkrldid81_1398308896046wARPO_JPEG%2FDSCN1533.jpg&type=sc960_832"
     },
     {
       "id": 36,
-      "title": "허니 머스타드",
+      "title_ko": "허니 머스타드",
+      "title_en": "Honey Mustard",
       "category": "sauce",
+      "kcal": 38.4,
       "price": 0,
       "desc": "",
       "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20140424_105%2Fwkrldid81_1398308896046wARPO_JPEG%2FDSCN1533.jpg&type=sc960_832"
     },
     {
       "id": 37,
-      "title": "사우스웨스트 치폴레",
+      "title_ko": "사우스웨스트 치폴레",
+      "title_en": "Southwest Chipotle",
       "category": "sauce",
+      "kcal": 96.5,
       "price": 0,
       "desc": "",
       "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20140424_105%2Fwkrldid81_1398308896046wARPO_JPEG%2FDSCN1533.jpg&type=sc960_832"
     },
     {
       "id": 38,
-      "title": "홀스래디쉬",
+      "title_ko": "홀스래디쉬",
+      "title_en": "Horseradish",
       "category": "sauce",
+      "kcal": 106,
       "price": 0,
       "desc": "",
       "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20140424_105%2Fwkrldid81_1398308896046wARPO_JPEG%2FDSCN1533.jpg&type=sc960_832"
     },
     {
       "id": 39,
-      "title": "머스터드",
+      "title_ko": "머스터드",
+      "title_en": "Yellow Mustard",
       "category": "sauce",
+      "kcal": 15.3,
       "price": 0,
       "desc": "",
       "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20140424_105%2Fwkrldid81_1398308896046wARPO_JPEG%2FDSCN1533.jpg&type=sc960_832"
     },
     {
       "id": 40,
-      "title": "엑스트라 버진 올리브 오일",
+      "title_ko": "올리브 오일",
+      "title_en": "Olive Oil",
       "category": "sauce",
+      "kcal": 124,
       "price": 0,
       "desc": "",
       "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20140424_105%2Fwkrldid81_1398308896046wARPO_JPEG%2FDSCN1533.jpg&type=sc960_832"
     },
     {
       "id": 41,
-      "title": "레드와인 식초",
+      "title_ko": "레드와인 식초",
+      "title_en": "RedWine Vinaigrette",
       "category": "sauce",
+      "kcal": 0.7,
       "price": 0,
       "desc": "",
       "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20140424_105%2Fwkrldid81_1398308896046wARPO_JPEG%2FDSCN1533.jpg&type=sc960_832"
     },
     {
       "id": 42,
-      "title": "소금",
+      "title_ko": "소금",
+      "title_en": "Salt",
       "category": "sauce",
       "price": 0,
       "desc": "",
@@ -338,7 +405,8 @@
     },
     {
       "id": 43,
-      "title": "후추",
+      "title_ko": "후추",
+      "title_en": "Black Pepper",
       "category": "sauce",
       "price": 0,
       "desc": "",
@@ -346,7 +414,8 @@
     },
     {
       "id": 44,
-      "title": "bacon",
+      "title_ko": "베이컨",
+      "title_en": "bacon",
       "category": "additional",
       "price": 0,
       "desc": "",
@@ -354,7 +423,8 @@
     },
     {
       "id": 45,
-      "title": "avocado",
+      "title_ko": "아보카도",
+      "title_en": "avocado",
       "category": "additional",
       "price": 0,
       "desc": "",
@@ -362,7 +432,8 @@
     },
     {
       "id": 46,
-      "title": "pepperoni",
+      "title_ko": "페퍼로니",
+      "title_en": "pepperoni",
       "category": "additional",
       "price": 0,
       "desc": "",
@@ -370,7 +441,8 @@
     },
     {
       "id": 47,
-      "title": "omelet",
+      "title_ko": "오믈렛",
+      "title_en": "omelet",
       "category": "additional",
       "price": 0,
       "desc": "",
@@ -378,7 +450,8 @@
     },
     {
       "id": 48,
-      "title": "cheese",
+      "title_ko": "치즈",
+      "title_en": "cheese",
       "category": "additional",
       "price": 0,
       "desc": "",
@@ -386,7 +459,8 @@
     },
     {
       "id": 49,
-      "title": "eggMayo",
+      "title_ko": "에그마요",
+      "title_en": "eggMayo",
       "category": "additional",
       "price": 0,
       "desc": "",
@@ -394,7 +468,8 @@
     },
     {
       "id": 50,
-      "title": "eggMayo",
+      "title_ko": "에그마요 (15cm 세트)",
+      "title_en": "Egg Mayo (15cm set)",
       "category": "15set",
       "price": 8100,
       "desc": "",
@@ -402,7 +477,8 @@
     },
     {
       "id": 51,
-      "title": "BLT",
+      "title_ko": "비엘티 (15cm 세트)",
+      "title_en": "B.L.T (15cm set)",
       "category": "15set",
       "price": 9200,
       "desc": "",
@@ -410,7 +486,8 @@
     },
     {
       "id": 52,
-      "title": "ham",
+      "title_ko": "햄 (15cm 세트)",
+      "title_en": "Ham (15cm set)",
       "category": "15set",
       "price": 8400,
       "desc": "",
@@ -418,7 +495,8 @@
     },
     {
       "id": 53,
-      "title": "tuna",
+      "title_ko": "참치 (15cm 세트)",
+      "title_en": "Tuna (15cm set)",
       "category": "15set",
       "price": 8400,
       "desc": "",
@@ -426,7 +504,8 @@
     },
     {
       "id": 54,
-      "title": "chickenSlice",
+      "title_ko": "치킨 슬라이스 (15cm 세트)",
+      "title_en": "Chicken Slice (15cm set)",
       "category": "15set",
       "price": 9100,
       "desc": "",
@@ -434,7 +513,8 @@
     },
     {
       "id": 55,
-      "title": "chickenBaconAvocado",
+      "title_ko": "치킨 베이컨 아보카도 (15cm 세트)",
+      "title_en": "Chicken Bacon Avocado (15cm set)",
       "category": "15set",
       "price": 10500,
       "desc": "",
@@ -442,7 +522,8 @@
     },
     {
       "id": 56,
-      "title": "roastedChicken",
+      "title_ko": "로스트 치킨 (15cm 세트)",
+      "title_en": "Roasted Chicken (15cm set)",
       "category": "15set",
       "price": 9900,
       "desc": "",
@@ -450,7 +531,8 @@
     },
     {
       "id": 57,
-      "title": "rotisserieBarbecueChicken",
+      "title_ko": "로티세리 바비큐 치킨 (15cm 세트)",
+      "title_en": "Rotisserie Barbecue Chicken (15cm set)",
       "category": "15set",
       "price": 9900,
       "desc": "",
@@ -458,7 +540,8 @@
     },
     {
       "id": 58,
-      "title": "subwayClub",
+      "title_ko": "써브웨이 클럽 (15cm 세트)",
+      "title_en": "Subway Club (15cm set)",
       "category": "15set",
       "price": 9700,
       "desc": "",
@@ -466,7 +549,8 @@
     },
     {
       "id": 59,
-      "title": "veggieDelite",
+      "title_ko": "베지 (15cm 세트)",
+      "title_en": "Veggie Delite (15cm set)",
       "category": "15set",
       "price": 7500,
       "desc": "",
@@ -474,7 +558,8 @@
     },
     {
       "id": 60,
-      "title": "shrimp",
+      "title_ko": "쉬림프 (15cm 세트)",
+      "title_en": "Shrimp (15cm set)",
       "category": "15set",
       "price": 10200,
       "desc": "",
@@ -482,7 +567,8 @@
     },
     {
       "id": 61,
-      "title": "pulledPorkBarbecue",
+      "title_ko": "풀드 포크 바비큐 (15cm 세트)",
+      "title_en": "Pulled Pork Barbecue (15cm set)",
       "category": "15set",
       "price": 9800,
       "desc": "",
@@ -490,7 +576,8 @@
     },
     {
       "id": 62,
-      "title": "kBBQ",
+      "title_ko": "K-바비큐 (15cm 세트)",
+      "title_en": "K-BBQ (15cm set)",
       "category": "15set",
       "price": 9900,
       "desc": "",
@@ -498,7 +585,8 @@
     },
     {
       "id": 63,
-      "title": "steakCheese",
+      "title_ko": "스테이크 & 치즈 (15cm 세트)",
+      "title_en": "Steak & Cheese (15cm set)",
       "category": "15set",
       "price": 10500,
       "desc": "",
@@ -506,7 +594,8 @@
     },
     {
       "id": 64,
-      "title": "spicyItalian",
+      "title_ko": "스파이시 이탈리안 (15cm 세트)",
+      "title_en": "Spicy Italian (15cm set)",
       "category": "15set",
       "price": 9500,
       "desc": "",
@@ -514,7 +603,8 @@
     },
     {
       "id": 65,
-      "title": "chickenTeriyaki",
+      "title_ko": "치킨 데리야끼 (15cm 세트)",
+      "title_en": "Chicken Teriyaki (15cm set)",
       "category": "15set",
       "price": 9600,
       "desc": "",
@@ -522,7 +612,8 @@
     },
     {
       "id": 66,
-      "title": "spicyShrimp",
+      "title_ko": "스파이시 쉬림프 (15cm 세트)",
+      "title_en": "Spicy Shrimp (15cm set)",
       "category": "15set",
       "price": 10500,
       "desc": "",
@@ -530,139 +621,172 @@
     },
     {
       "id": 67,
-      "title": "eggMayo",
-      "category": "main",
+      "title_ko": "에그마요",
+      "title_en": "Egg Mayo",
+      "category": "single",
       "price": 5500,
       "desc": "",
-      "img": ""
+      "img": "",
+      "kcal": 416
     },
     {
       "id": 68,
-      "title": "BLT",
-      "category": "main",
+      "title_ko": "비엘티",
+      "title_en": "B.L.T",
+      "category": "single",
       "price": 6600,
       "desc": "",
-      "img": ""
+      "img": "",
+      "kcal": 300
     },
     {
       "id": 69,
-      "title": "ham",
-      "category": "main",
+      "title_ko": "햄",
+      "title_en": "Ham",
+      "category": "single",
       "price": 5800,
       "desc": "",
-      "img": ""
+      "img": "",
+      "kcal": 262
     },
     {
       "id": 70,
-      "title": "tuna",
-      "category": "main",
+      "title_ko": "참치",
+      "title_en": "Tuna",
+      "category": "single",
       "price": 5800,
       "desc": "",
-      "img": ""
+      "img": "",
+      "kcal": 316
     },
     {
       "id": 71,
-      "title": "chickenSlice",
-      "category": "main",
+      "title_ko": "치킨 슬라이스",
+      "title_en": "Chicken Slice",
+      "category": "single",
       "price": 6500,
       "desc": "",
-      "img": ""
+      "img": "",
+      "kcal": 265
     },
     {
       "id": 72,
-      "title": "chickenBaconAvocado",
-      "category": "main",
+      "title_ko": "치킨 베이컨 아보카도",
+      "title_en": "Chicken Bacon Avocado",
+      "category": "single",
       "price": 7900,
       "desc": "",
-      "img": ""
+      "img": "",
+      "kcal": 355
     },
     {
       "id": 73,
-      "title": "roastedChicken",
-      "category": "main",
+      "title_ko": "로스트 치킨",
+      "title_en": "Roasted Chicken",
+      "category": "single",
       "price": 7300,
       "desc": "",
-      "img": ""
+      "img": "",
+      "kcal": 300
     },
     {
       "id": 74,
-      "title": "rotisserieBarbecueChicken",
-      "category": "main",
+      "title_ko": "로티세리 바비큐 치킨",
+      "title_en": "Rotisserie Barbecue Chicken",
+      "category": "single",
       "price": 7300,
       "desc": "",
-      "img": ""
+      "img": "",
+      "kcal": 327
     },
     {
       "id": 75,
-      "title": "subwayClub",
-      "category": "main",
+      "title_ko": "써브웨이 클럽",
+      "title_en": "Subway Club",
+      "category": "single",
       "price": 7100,
       "desc": "",
-      "img": ""
+      "img": "",
+      "kcal": 299
     },
     {
       "id": 76,
-      "title": "veggieDelite",
-      "category": "main",
+      "title_ko": "베지",
+      "title_en": "Veggie Delite",
+      "category": "single",
       "price": 4900,
       "desc": "",
-      "img": ""
+      "img": "",
+      "kcal": 209
     },
     {
       "id": 77,
-      "title": "shrimp",
-      "category": "main",
+      "title_ko": "쉬림프",
+      "title_en": "Shrimp",
+      "category": "single",
       "price": 7600,
       "desc": "",
       "img": ""
     },
     {
       "id": 78,
-      "title": "pulledPorkBarbecue",
-      "category": "main",
+      "title_ko": "풀드 포크 바비큐",
+      "title_en": "Pulled Pork Barbecue",
+      "category": "single",
       "price": 7200,
       "desc": "",
-      "img": ""
+      "img": "",
+      "kcal": 327
     },
     {
       "id": 79,
-      "title": "kBBQ",
-      "category": "main",
+      "title_ko": "K-바비큐",
+      "title_en": "K-BBQ",
+      "category": "single",
       "price": 7300,
       "desc": "",
-      "img": ""
+      "img": "",
+      "kcal": 372
     },
     {
       "id": 80,
-      "title": "steakCheese",
-      "category": "main",
+      "title_ko": "스테이크 & 치즈",
+      "title_en": "Steak & Cheese",
+      "category": "single",
       "price": 7900,
       "desc": "",
-      "img": ""
+      "img": "",
+      "kcal": 355
     },
     {
       "id": 81,
-      "title": "spicyItalian",
-      "category": "main",
+      "title_ko": "스파이시 이탈리안",
+      "title_en": "Spicy Italian",
+      "category": "single",
       "price": 6900,
       "desc": "",
-      "img": ""
+      "img": "",
+      "kcal": 464
     },
     {
       "id": 82,
-      "title": "chickenTeriyaki",
-      "category": "main",
+      "title_ko": "치킨 데리야끼",
+      "title_en": "Chicken Teriyaki",
+      "category": "single",
       "price": 7000,
       "desc": "",
-      "img": ""
+      "img": "",
+      "kcal": 314
     },
     {
       "id": 83,
-      "title": "spicyShrimp",
-      "category": "main",
+      "title_ko": "스파이시 쉬림프",
+      "title_en": "Spicy Shrimp",
+      "category": "single",
       "price": 7900,
       "desc": "",
-      "img": ""
+      "img": "",
+      "kcal": 245
     }
   ]
 }
