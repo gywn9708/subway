@@ -1,6 +1,32 @@
+import axios from "axios";
+import { useEffect, useState } from "react";
 import styled from "styled-components";
 
 function SideNavBar() {
+  let totalData: any[] = [];
+  const breadData: string[] = [];
+  const getMenus = () => {
+    axios.get("http://localhost:8000/menu").then((response) => {
+      console.log(response.data);
+      totalData = response.data.slice();
+      console.log(totalData[0]);
+    });
+  };
+  useEffect(() => {
+    getMenus();
+  }, []);
+  console.log(totalData.length);
+  totalData.map((a) => console.log(a.category));
+  for (let i = 0; i < totalData.length; i++) {
+    console.log(totalData[i]);
+    if (totalData[i].category === "breads") {
+      breadData.push(totalData[i]);
+      console.log(totalData[i]);
+    }
+  }
+  console.log(breadData);
+
+  const [btnActive, setBtnActive] = useState<string>("");
   const navArray = [
     "BREADS",
     "CHEESE",
@@ -9,7 +35,10 @@ function SideNavBar() {
     "SAUCES",
     "SEASONINGS",
   ];
+
   const handleClickNavList = (item: string) => {
+    setBtnActive(item);
+    console.log(btnActive);
     switch (item) {
       case "BREADS":
         console.log(item);
@@ -31,17 +60,31 @@ function SideNavBar() {
         break;
     }
   };
+  const renderSubjects = (item: string) => {
+    if (item === "") return null;
+    if (item === "BREAD") {
+      return <></>;
+    }
+  };
   return (
     <Container>
-      {navArray.map((item) => (
-        <Nav onClick={() => handleClickNavList(item)}>{item}</Nav>
+      {navArray.map((item, idx) => (
+        <Nav
+          isSelected={item === btnActive}
+          onClick={(e: any) => {
+            handleClickNavList(item);
+          }}
+        >
+          {item}
+        </Nav>
       ))}
+      {renderSubjects(btnActive)}
     </Container>
   );
 }
 
 const Container = styled.div`
-  background-color: #e9e9e9;
+  background-color: #f5f5f5;
   color: #000000;
   font-size: 24px;
   font-weight: 900;
@@ -49,14 +92,18 @@ const Container = styled.div`
   width: 20%;
 `;
 
-const Nav = styled.div`
+const Nav = styled.div<{ isSelected?: boolean }>`
   padding: 34px 52px;
   display: flex;
   align-items: center;
   cursor: pointer;
   justify-content: center;
+  border-bottom: 1px solid #e9e9e9;
+  border-right: ${(props) => (props.isSelected ? "none" : "1px solid #e9e9e9")};
+  color: ${(props) => (props.isSelected ? "#51964c" : "#000000")};
+  background-color: ${(props) => (props.isSelected ? "#FFFFFF" : "")};
   &:last-child {
-    padding-bottom: 66px;
+    border-bottom: none;
   }
 `;
 
