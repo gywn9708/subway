@@ -5,7 +5,11 @@ function Footer() {
 }
 
 const Title = styled.div`
-  padding: 30px;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  bottom: 0;
   background-color: #f6cd56;
 `;
+
 export default Footer;

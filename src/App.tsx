@@ -1,40 +1,22 @@
-import "./App.css";
-import Container from "./components/Container";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Menu from "./components/menu/Menu";
 import SideNavBar from "./components/SideNavBar";
+<<<<<<< HEAD
 import styled from "styled-components";
 import Toppings from "./components/menu/Toppings";
 import Order from "./components/menu/Order";
+=======
+>>>>>>> 02bf61f2c9eee019651573fcca15ae90ee5557b7
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Header />
-
-      <Container>
-        <SideNavBar />
-
-        <MenuWrapper>
-          {/* <Menu /> */}
-          <Toppings />
-          <Order />
-        </MenuWrapper>
-      </Container>
-
+      <SideNavBar />
       <Footer />
-    </div>
+    </>
   );
 }
 
 export default App;
 
-const MenuWrapper = styled.div`
-  width: 100%;
-  height: 100%;
-  max-height: 768px;
-  overflow: scroll;
-  display: flex;
-  justify-content: center;
-`;
