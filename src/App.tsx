@@ -5,6 +5,8 @@ import Header from "./components/Header";
 import Menu from "./components/menu/Menu";
 import SideNavBar from "./components/SideNavBar";
 import styled from "styled-components";
+import Toppings from "./components/menu/Toppings";
+import Order from "./components/menu/Order";
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
         <SideNavBar />
 
         <MenuWrapper>
-          <Menu />
+          {/* <Menu /> */}
+          <Toppings />
+          <Order />
         </MenuWrapper>
       </Container>
 
@@ -33,5 +37,4 @@ const MenuWrapper = styled.div`
   overflow: scroll;
   display: flex;
   justify-content: center;
-  margin: 50px 0;
-`
+`;

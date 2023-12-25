@@ -3,27 +3,23 @@ import { useEffect, useState } from "react";
 import styled from "styled-components";
 
 function SideNavBar() {
-  let totalData: any[] = [];
-  const breadData: string[] = [];
+  let breadData: string[] = [];
   const getMenus = () => {
+    let totalData: any[] = [];
     axios.get("http://localhost:8000/menu").then((response) => {
       console.log(response.data);
-      totalData = response.data.slice();
-      console.log(totalData[0]);
+      totalData = [...response.data];
     });
+    return totalData;
   };
-  useEffect(() => {
-    getMenus();
-  }, []);
-  console.log(totalData.length);
-  totalData.map((a) => console.log(a.category));
-  for (let i = 0; i < totalData.length; i++) {
-    console.log(totalData[i]);
-    if (totalData[i].category === "breads") {
-      breadData.push(totalData[i]);
-      console.log(totalData[i]);
-    }
-  }
+  // totalData.map((a) => console.log(a.category));
+  // for (let i = 0; i < totalData.length; i++) {
+  //   console.log(totalData[i]);
+  //   if (totalData[i].category === "breads") {
+  //     breadData.push(totalData[i]);
+  //     console.log(totalData[i]);
+  //   }
+  // }
   console.log(breadData);
 
   const [btnActive, setBtnActive] = useState<string>("");
@@ -66,6 +62,11 @@ function SideNavBar() {
       return <></>;
     }
   };
+  useEffect(() => {
+    breadData = getMenus()
+      .filter((a) => a.category === "breads")
+      .slice();
+  }, []);
   return (
     <Container>
       {navArray.map((item, idx) => (
